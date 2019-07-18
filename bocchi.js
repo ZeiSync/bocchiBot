@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const config = require('./config.json');
 
 client.on("ready", () => {
+	console.log('quang day');
   console.log("Bocchi is ready desu!");
 });
 
