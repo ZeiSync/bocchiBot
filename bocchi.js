@@ -8,7 +8,7 @@ client.on("ready", () => {
 
 client.on('message', (message) => {
 	if (message.author.bot) return;
-	if (message.content.startsWith('Bocchi')) {message.channel.send({embed: {color: 3447003, description: "Hitori Bocchi desu"}})};
+	if (message.content.startsWith('Bocchi')) {message.channel.send({embed: {color: 3447003, description: "What!!?"}})};
 	if (!message.content.startsWith(config.prefix)) return;
 	//ping
 	if (message.content.startsWith(config.prefix + 'ping')) {
