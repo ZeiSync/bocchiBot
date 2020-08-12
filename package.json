@@ -1,13 +1,16 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "boochi",
+  "description": "Boochi",
   "version": "0.0.0",
   "main": "bocchi.js",
   "scripts": {
     "start": "node bocchi.js"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "discord.js": "11.5.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.3.1",
     "request": "2.81.0"
   }
 }
